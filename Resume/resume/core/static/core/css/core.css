@@ -1,0 +1,21 @@
+
+
+#one{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* height: 100%; */
+    width: 100%;
+    background-color: #212529;}
+.iconcolor{
+    color: chartreuse; 
+}
+#two{
+    color: white !important;
+}
+#two:hover{
+    color: black !important;
+background-color: #0dcaf0;}
+#two.active{
+    color: black !important;
+background-color: #1d7ba0;
+font-weight: bold;}

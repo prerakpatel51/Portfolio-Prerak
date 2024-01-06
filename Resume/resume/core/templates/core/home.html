@@ -1,0 +1,37 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<div>
+    <div class="text-center mt-5"><img src="{% static 'core/images/pk.jpg' %}"
+            class='img-thumbnail  border-info border-rounded mt-5 ' width='350px' height='350px' alt="">
+    </div>
+
+    <div class="text-white mt-5 text-justify px-5  mx-5 " style="line-height: 2rem;">
+        <h1 class="   font-weight-bold st-font " style="font-family: 'Satisfy'">Hello ,</h1>
+        <div class="">
+            <p style="text-indent:100px;text-align: justify; " class="fs-5 text-white ">I am <b
+                    class="text-warning">Prerak
+                    Patel </b> engineer with 5+ years of experience in full-stack development. I am proficient in a wide
+                range of programming languages and technologies, including <b><i>Java, Python, JavaScript, MySQL, and
+                        AWS</b></i>. I have a strong understanding of the full software development lifecycle, from
+                requirements gathering to deployment. I am also an excellent problem solver and have a proven track
+                record of delivering high-quality software on time and within budget.</p>
+            <br>
+            <p style="  text-align: justify; " class="fs-5 text-white  ">
+                I am also proficient in cloud computing platforms, such as <b class="text-warning">AWS and
+                    Azure</b>. I am a strong advocate for agile development methodologies and have experience working in
+                a fast-paced, collaborative environment. I am always looking for new challenges and opportunities to
+                learn and grow.
+                I am a highly motivated and results-oriented individual. I am also a team player and have a strong work
+                ethic. I am confident that I have the skills and experience to be a valuable asset to your team.
+
+            </p>
+        </div>
+    </div>
+    <div class="text-center  pt-2"> <a href="{% url 'contact'%}" class="btn btn-outline-warning  my-3 mx-5">Hire me</a>
+        <a href="{% url 'contact'%}" class="btn btn-outline-info mx-5 my-3">Contact</a>
+    </div>
+</div>
+
+{% endblock content %}

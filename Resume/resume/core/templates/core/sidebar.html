@@ -1,0 +1,15 @@
+{% load static %}
+<div class="border-end border-4 border-info h-100" id="vertical">
+    <div class="text-center">
+        <img src="{% static 'core/images/pk.png' %}" alt="" class="img-fluid rounded-circle mt-5" width="100px"
+            height="100px">
+        <h3 class="fs-2 text-white mt-4 " style="font-family: 'Satisfy'">Prerak Patel</h3>
+    </div>
+    <hr class="  border-5 border-info border-bottom  " id="two">
+    <nav class="nav flex-column text-center">
+        <a href="{% url 'home'%}" class="nav-link {{home}}" id="two">Home</a>
+        <a href="{% url 'service'%}" class="nav-link {{service}}"id="two">Service</a>
+        <a href="{% url 'skill'%}" class="nav-link {{skill}}"id="two">Skill</a>
+        <a href="{% url 'contact'%}" class="nav-link {{contact}}"id="two">Contact</a>
+    </nav>
+</div>
